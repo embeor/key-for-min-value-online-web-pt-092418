@@ -1,4 +1,8 @@
   def key_for_min_value(name_hash)
+  #If the method is called and passed an argument of an empty hash, it should return nil.
+  if name_hash == {}
+    return nil
+    
     chosen_key = ""
     previous_value = 0
       name_hash.each do |key, value|
@@ -13,7 +17,7 @@
           chosen_key = key
         end
       end
+    end
       #and return chosen_key
     return chosen_key
   end
-
