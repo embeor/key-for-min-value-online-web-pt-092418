@@ -1,5 +1,3 @@
-
-
   def key_for_min_value(name_hash)
     chosen_key = ""
     previous_value = 0
@@ -19,4 +17,3 @@
     return chosen_key
   end
 
-end
