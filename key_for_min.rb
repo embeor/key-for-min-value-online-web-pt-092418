@@ -2,6 +2,7 @@
   #If the method is called and passed an argument of an empty hash, it should return nil.
   if name_hash == {}
     return nil
+  end
     
     chosen_key = ""
     previous_value = 0
@@ -17,7 +18,6 @@
           chosen_key = key
         end
       end
-    end
       #and return chosen_key
     return chosen_key
   end
