@@ -3,7 +3,7 @@
   if name_hash == {}
     return nil
   end
-    
+
     chosen_key = ""
     previous_value = 0
       name_hash.each do |key, value|
